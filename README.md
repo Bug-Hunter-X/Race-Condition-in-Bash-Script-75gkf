@@ -1,0 +1,1 @@
+This repository contains a simple bash script demonstrating a race condition.  The script uses two processes to write to separate files concurrently. Due to the nature of concurrent execution the order of writes to each file cannot be deterministically predicted. The `bug.sh` file contains the buggy code, while `bugSolution.sh` provides a solution using locks.
